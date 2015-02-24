@@ -1,3 +1,11 @@
 <?xml version="1.0"?>
 <module name="4i.language.python.hello" branch="master">
+  <module name="4i.language.python" required_branch="master"/>
+  <node name="project">
+    <node name="output" virtual="True" pre_check="output_pre_check.gsl" debug="True">
+      <node name="main" virtual="True" debug="True">
+	<node name="stmt" virtual="True" debug="True" pre="stmt_pre.gsl"/>
+      </node>
+    </node>
+  </node>
 </module>

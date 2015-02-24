@@ -1,0 +1,5 @@
+.template 0
+
+define projectnode. = "print 'Hello, World'"
+
+.endtemplate
