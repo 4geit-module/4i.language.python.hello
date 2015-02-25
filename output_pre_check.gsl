@@ -1,5 +1,5 @@
 .template 0
 
-projectnode.name = 'hello'
+define projectnode.name = 'hello'
 
 .endtemplate
